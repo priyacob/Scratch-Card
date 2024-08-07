@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 900px;
+   background-image: url(pic/layered-steps-haikei.png) ;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+main{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    
+}
+.seri1{
+    height: 600px;
+    width: 1200px;
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  
+    
+}
+button{
+    height: 70px;
+    width: 70px;
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(131, 131, 177);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    border-radius: 2px;
+   
+}
+button:hover{
+    background-color: rgb(180, 180, 228) ;
+    border-radius: 5px;
+    border: 3px cyan;
+}
+.section{
+    height: 70px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+#scor{
+    padding: 4px 8px;
+    outline: none;
+    border-radius: 8px;
+   
+}
+.point{
+height: 100px;
+width: 200px;
+background-color: rgb(164, 95, 209);
+display: flex;
+justify-content: center;
+text-align: center;
+
+position: relative;
+
+}
+#points input{
+    width: 60px;
+outline: none;
+padding: 10px;
+border-radius: 4px;
+border: none;
+font-size: 20px;
+text-align: center;
+}
+.wid{
+    
+    height: 100px;
+    display: flex;
+    
+    justify-content: center;
+}
